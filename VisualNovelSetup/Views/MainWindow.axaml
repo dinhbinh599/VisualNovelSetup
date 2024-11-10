@@ -15,6 +15,8 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
+    <!-- <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/> -->
+    <Grid Background="{DynamicResource PrimaryBackground}" ColumnDefinitions="200, *">
+        
+    </Grid>
 </Window>
